@@ -42,99 +42,102 @@
 
     </svg>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-		<div class="container">
-			<a class="navbar-brand" href="index.html">Nicholas Falzon</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="portfolio.html">Portfolio</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="services.html">Services</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contactUs.html">Contact Us</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	
-        <div class="ImagesTitle" style="padding-top: 100px;">
-          <h3>Contact us for a Personalised Shoot or Simply to have a Chat.</h3>
-        </div>
-    
-        <div class="row" id="contactUsContainer">
-          <div class="col-sm-5">
-            <form action="https://formsubmit.co/d40ead064f44af53cc2f13a008bb3e8e" method="POST">
-              <label for="fname">Full Name</label>
-              <input type="text" id="fname" name="Client's full name" placeholder="Write your full name.." required>
-    
-              <label for="email">Email Address</label>
-              <input type="email" id="email" name="Client's email address" placeholder="Write your email.." required>
-    
-              <label for="pNumber">Contact Number</label>
-              <input type="number" id="pNumber" name="Client's contact number" placeholder="Write your contact number.." required>
-    
-              <label for="message">Message</label>
-              <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
-    
-              <button type="submit" id="submitButton" class="btn btn-primary">Send</button>
-            </form>
-          </div>
-          <div class="col-sm-5 img-fluid">
-            <img src="Images/Portfolio/Automotive/13.jpg" id="imageContact">
-          </div>
-
-    <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <div class="col-md-4 d-flex align-items-center">
-                <span class="text-muted">&copy; 2023 NF Photography</span>
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Nicholas Falzon</a> <button aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactUs.html">Contact Us</a>
+                    </li>
+                </ul>
             </div>
+        </div>
+    </nav>
 
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-muted" target="_blank"
-                        href="https://www.instagram.com/nfalzon_photos/"><svg class="bi" width="24" height="24">
-                            <use xlink:href="#instagram" />
-                        </svg></a></li>
-                <li class="ms-3"><a class="text-muted" target="_blank"
-                        href="https://www.facebook.com/NFalzonPhotos"><svg class="bi" width="24" height="24">
-                            <use xlink:href="#facebook" />
-                        </svg></a></li>
-            </ul>
-        </footer>
+    <div class="ImagesTitle" style="padding-top: 100px;">
+        <h3>Contact us for a Personalised Shoot or Simply to have a Chat.</h3>
     </div>
 
-    <!--Script files-->
-    <script>
-        var chatbox = document.getElementById('fb-customer-chat');
-        chatbox.setAttribute("page_id", "101492458371339");
-        chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
+    <div class="row" id="contactUsContainer">
+        <div class="col-sm-5">
+            <form action="https://formsubmit.co/d40ead064f44af53cc2f13a008bb3e8e" method="POST">
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="Client's full name" placeholder="Write your full name.." required>
 
-    <!-- Your SDK code -->
-    <script>
-        window.fbAsyncInit = function () {
-            FB.init({
-                xfbml: true,
-                version: 'v13.0'
-            });
-        };
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="Client's email address" placeholder="Write your email.." required>
 
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
+                <label for="pNumber">Contact Number</label>
+                <input type="number" id="pNumber" name="Client's contact number"
+                    placeholder="Write your contact number.." required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+
+                <button type="submit" id="submitButton" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+        <div class="col-sm-5 img-fluid">
+            <img src="Images/Portfolio/Automotive/13.jpg" id="imageContact">
+        </div>
+
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span class="text-muted">&copy; 2023 NF Photography</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-muted" target="_blank"
+                            href="https://www.instagram.com/nfalzon_photos/"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#instagram" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="text-muted" target="_blank"
+                            href="https://www.facebook.com/NFalzonPhotos"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#facebook" />
+                            </svg></a></li>
+                </ul>
+            </footer>
+        </div>
+
+        <!--Script files-->
+        <script>
+            var chatbox = document.getElementById('fb-customer-chat');
+            chatbox.setAttribute("page_id", "101492458371339");
+            chatbox.setAttribute("attribution", "biz_inbox");
+        </script>
+
+        <script>
+            window.fbAsyncInit = function () {
+                FB.init({
+                    xfbml: true,
+                    version: 'v13.0'
+                });
+            };
+
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+
 
 </body>
 
 </html>
-
-

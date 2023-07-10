@@ -42,50 +42,53 @@
 
     </svg>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-		<div class="container">
-			<a class="navbar-brand" href="index.html">Nicholas Falzon</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="portfolio.html">Portfolio</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="services.html">Services</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contactUs.html">Contact Us</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	
-        <div class="myWorkSection">
-            <h3 style="padding-top: 100px;">Click To Explore My Diverse Portfolio Showcasing My Work.</h3>
-            <div class="portfolioSec">
-                <div class="portfolioTitle">
-                    <a href="automotive.html"> <img src="Images/Work-Images/auto.jpg" alt=""></a>
-                    <p>Automotive</p>
-                </div>
-                <div class="portfolioTitle">
-                    <a href="motorsport.html"><img src="Images/Work-Images/motorsport.jpg" alt=""></a>
-                    <p>Motorsport</p>
-                </div>
-            </div>
-            <div class="portfolioSec">
-                <div class="portfolioTitle">
-                    <a href="euro19.html"> <img src="Images/Work-Images/euro.jpg" alt=""></a>
-                    <p>European Championship U19 </p>
-                </div>
-                <div class="portfolioTitle">
-                    <a href="nationalLeague.html"><img src="Images/Work-Images/nationalLeague.jpg" alt=""></a>
-                    <p>League Football</p>
-                </div>
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Nicholas Falzon</a> <button aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactUs.html">Contact Us</a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
+
+    <div class="myWorkSection">
+        <h3 style="padding-top: 100px;">Click To Explore My Diverse Portfolio Showcasing My Work.</h3>
+        <div class="portfolioSec">
+            <div class="portfolioTitle">
+                <a href="automotive.html"> <img src="Images/Work-Images/auto.jpg" alt=""></a>
+                <p>Automotive</p>
+            </div>
+            <div class="portfolioTitle">
+                <a href="motorsport.html"><img src="Images/Work-Images/motorsport.jpg" alt=""></a>
+                <p>Motorsport</p>
+            </div>
+        </div>
+        <div class="portfolioSec">
+            <div class="portfolioTitle">
+                <a href="euro19.html"> <img src="Images/Work-Images/euro.jpg" alt=""></a>
+                <p>European Championship U19 </p>
+            </div>
+            <div class="portfolioTitle">
+                <a href="nationalLeague.html"><img src="Images/Work-Images/nationalLeague.jpg" alt=""></a>
+                <p>League Football</p>
+            </div>
+        </div>
+    </div>
     </div>
 
     <div class="container">
@@ -116,6 +119,12 @@
 
     <!-- Your SDK code -->
     <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "101492458371339");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <script>
         window.fbAsyncInit = function () {
             FB.init({
                 xfbml: true,
@@ -135,5 +144,3 @@
 </body>
 
 </html>
-
-
