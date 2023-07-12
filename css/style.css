@@ -6,6 +6,10 @@ body {
 	background: #f1fbff;
 }
 
+.watermarkNav{
+    width: 20%;
+}
+
 .section-padding {
 	padding: 100px 0;
 }
@@ -507,6 +511,11 @@ hr {
 	body {
 		overflow-x: hidden;
 	}
+
+	.watermarkNav{
+		align-items: center;
+	  }
+
 
 	body {
 		position: relative
