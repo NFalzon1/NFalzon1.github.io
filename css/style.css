@@ -192,14 +192,12 @@ body {
 
 .column {
 	flex: 25%;
-	max-width: 33.3%;
 	padding: 0 4px;
 }
 
 .column img {
 	padding-top: 10px;
-	width: 100%;
-
+	height: 500px;
 }
 
 
