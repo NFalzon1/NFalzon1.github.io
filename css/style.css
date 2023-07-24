@@ -4,6 +4,7 @@
 
 body {
 	background: #f1fbff;
+	overflow-x: hidden;
 }
 
 .watermarkNav{
