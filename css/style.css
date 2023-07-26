@@ -525,6 +525,17 @@ hr {
 		overflow-x: hidden;
 	}
 
+	.galleryRow{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.galleryRow img{
+		object-fit: contain; /* Display the entire image without cropping */
+		width: auto;
+	}
+
 	.watermarkNav{
 		align-items: center;
 	  }
