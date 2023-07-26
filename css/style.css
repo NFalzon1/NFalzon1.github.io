@@ -144,6 +144,12 @@ body {
 	padding-left: 50px;
 	padding-right: 50px;
 }
+.gallerySection {
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
 
 .portfolioSec {
 	padding-top: 50px;
@@ -465,6 +471,10 @@ hr {
 	justify-content: space-around;
 }
 
+#mobileMotorsportSection{
+	display: none;
+}
+
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -492,6 +502,10 @@ hr {
 	body {
 		position: relative
 	}
+
+	#mobileMotorsportSection{
+		display: none;
+	}
 }
 
 @media screen and (min-width: 600px) and (max-width: 1279px) {
@@ -514,6 +528,9 @@ hr {
 		filter: grayscale(0) brightness(1);
 	}
 
+	#mobileMotorsportSection{
+		display: none;
+	}
 
 }
 
@@ -525,21 +542,24 @@ hr {
 		overflow-x: hidden;
 	}
 
-	.galleryRow{
+	#mobileMotorsportSection{
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 	}
+
+	.gallerySection{
+		display: none;
+	}
+
 
 	.galleryRow img{
 		object-fit: contain; /* Display the entire image without cropping */
-		width: auto;
 	}
+
 
 	.watermarkNav{
 		align-items: center;
 	  }
-
 
 	body {
 		position: relative
@@ -603,6 +623,11 @@ hr {
 	}
 
 	.myWorkSection {
+		text-align: center;
+		padding-top: 50px;
+	}
+
+	.gallerySection {
 		text-align: center;
 		padding-top: 50px;
 	}
