@@ -141,6 +141,8 @@ body {
 .myWorkSection {
 	text-align: center;
 	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .portfolioSec {
@@ -200,6 +202,17 @@ body {
 .column img {
 	padding-top: 10px;
 	height: 500px;
+}
+
+.galleryRow{
+	display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.galleryRow img{
+	height: 500px;
+	padding: 20px;
 }
 
 
