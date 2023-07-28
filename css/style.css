@@ -553,6 +553,7 @@ hr {
 
 
 	.galleryRow img{
+		display: block;
 		object-fit: contain; /* Display the entire image without cropping */
 	}
 
