@@ -550,7 +550,12 @@ hr {
 	.gallerySection{
 		display: none;
 	}
-
+	
+	.galleryRow{
+		display: flex;
+		justify-content: center;
+		flex-wrap: nowrap;
+	}
 
 	.galleryRow img{
 		display: block;
