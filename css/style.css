@@ -1,5 +1,5 @@
 h1,h2,h3,h4,h5,h6 {
-	font-family: roboto, sans-serif;
+	font-family: roboto, sans-serif !important;
 }
 
 p {
@@ -723,6 +723,11 @@ span {
 		object-fit: contain; /* Display the entire image without cropping */
 	}
 
+	.navbar-light .navbar-toggler {
+		color: rgba(0, 0, 0, 1);
+		border-color: white;
+	}
+
 
 	.watermarkNav{
 		align-items: center;
@@ -780,13 +785,15 @@ span {
 	}
 
 	#aboutUsSec img {
-		height: 400px;
-	}
+        height: 350px;
+        border-radius: 20px;
+    }
 
 	.aboutUs p {
 		font-size: 20px;
 		text-align: justify;
 		padding-bottom: 10px;
+		padding-right: 0px;
 	}
 
 	.myWorkSection {
@@ -814,7 +821,7 @@ span {
 	}
 
 	.portfolioTitle img {
-		width: 300px;
+		width: 350px;
 		height: auto;
 
 	}
