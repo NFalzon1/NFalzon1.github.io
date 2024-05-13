@@ -130,6 +130,13 @@ body {
 	color: #000;
 }
 
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
 .w-100 {
 	height: 100vh;
 }
@@ -203,6 +210,8 @@ body {
 	transition: all 200ms ease-in;
 	transform: scale(1.1);
 }
+
+
 
 
 .portfolioTitle p {
