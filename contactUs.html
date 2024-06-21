@@ -33,18 +33,42 @@
     </svg>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="../index.html">Nicholas Falzon</a> <button aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
-                data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span
-                    class="navbar-toggler-icon"></span></button>
+            <a class="navbar-brand" href="../index.html">Nicholas Falzon</a> <button
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
+                type="button"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="../index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../portfolio.html">Portfolio</a>
-                    </li>
+
+                    <div class="dropdown">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Photography
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="photo_portfolio/automotive.html">Automotive</a></li>
+                            <li><a class="dropdown-item" href="photo_portfolio/events.html">Events</a></li>
+                            <li><a class="dropdown-item" href="photo_portfolio/motorsport.html">Motorsport</a></li>
+                            <li><a class="dropdown-item" href="photo_portfolio/sports.html">Sports</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- <div class="dropdown">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Web Design & Development
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="web_portfolio/ui&ux.html">UI/UX Work</a></li>
+                            <li><a class="dropdown-item" href="web_portfolio/wordpress.html">WordPress Themes</a></li>
+                        </ul>
+                    </div> -->
+
                     <li class="nav-item">
                         <a class="nav-link" href="../press.html">Press Features</a>
                     </li>
@@ -56,11 +80,11 @@
         </div>
     </nav>
     <div id=contactHead>
-        <div class=ImagesTitle style=padding-top:100px>
+        <div class=ImagesTitle style="padding-top:100px">
             <h3>Contact us for a Personalised Shoot or Simply to have a Chat.</h3>
         </div>
     </div>
-    <div class=row id=contactUsContainer>
+    <div class="row" id="contactUsContainer" style="padding-left: 10%; padding-right: 10%;">
         <div class=col-sm-5>
             <form action=https://formsubmit.co/d40ead064f44af53cc2f13a008bb3e8e method=POST>
                 <label for=fname>Full Name</label>
